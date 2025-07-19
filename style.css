@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #ffe6f0, #ffccf9);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.chat-container {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  padding: 20px;
+  position: relative;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-image: url('https://i.imgur.com/0y8Ftya.gif');
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  animation: dance 3s infinite;
+}
+@keyframes dance {
+  0% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
+}
+#chat-box {
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 15px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

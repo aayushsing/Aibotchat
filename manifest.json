@@ -1,0 +1,16 @@
+{
+  "name": "Sree - Your AI Girlfriend 💖",
+  "short_name": "Sree AI",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff0f5",
+  "theme_color": "#ff69b4",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
